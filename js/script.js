@@ -47,6 +47,7 @@ function findName() {
         " and your Akan name is " +
         maleNames[dayBorn]
     );
+    
   } else {
     alert(
       "Hello there, your day of birth is " +
