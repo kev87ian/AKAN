@@ -53,6 +53,7 @@ function findName() {
         daysOfTheWeek[dayBorn] +
         " and your Akan name is " +
         maleNames[dayBorn]
+      
     );
   }
 }
