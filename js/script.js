@@ -52,8 +52,7 @@ function findName() {
       "Hello there, your day of birth is " +
         daysOfTheWeek[dayBorn] +
         " and your Akan name is " +
-        maleNames[dayBorn]
-        
+        maleNames[dayBorn]   
       
     );
   }
