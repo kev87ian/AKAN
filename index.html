@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akan Name</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Name generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
-<div>
 <body>
-    <h1>Welcome to the Akan Name generator</h1>
-    <h3> Background Information</h3>
-        <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status,
-            or an ancestor's middle name.
-            This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries,
-            slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. 
-            Many of the leaders of slave rebellions had "day names" 
-            including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or Kwame/Kwamina.
-            Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. 
-            Notable figures with day names include Ghana's first president Kwame Nkrumah and 
-            former United Nations Secretary-General Kofi Annan.</p>
-</div>
-
-<h3>Fill the form below to get your Akan Name :)</h3>
+    <div class="container">
+        <div class="jumbotron">
+            <div id="introduction">
+                <h2>Akan name generator</h2>
+                <p>This is a site that is basically designed to help you determine the exact day they were born and assign them a Ghanian Akan name 
+                depending on their gender and the day of the week they were born. It provides you a form where you need to key in your details 
+                including your name, gender, date, month and year of birth. The system will then automatically display the day of the week that
+                you were born and the Akan Ghanian name.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12 xs -4as">
+                    <form action="" id="myForm" class="form">
+                        <fieldset>
+                            <label>Date Of Birth</label><br>
+                            <input type="number" id="dd"  class="in" maxlength="2" placeholder="DD">
+                        <fieldset>
+                            <label>Month</label><br>
+                            <input type="number" id="mm" class="in" maxlength="2" placeholder="MM">
+                        </fieldset>
+                        <fieldset>
+                            <label>Year of birth</label><br>
+                            <input type="number" id="yy" class="in" maxlength="4" placeholder="YYYY" min="1920">
+                        </fieldset>
+                        <input type="radio" name="gender" id="maleGender" value="male"> Male<br>
+                        <input type="radio" name="gender" id="femaleGender" value="female"> Female<br>
+                        <button type="button" onclick="findName()">Compute</button>
+                    </form> 
+                </div>
+            </div>   
+        </div>            
+    
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

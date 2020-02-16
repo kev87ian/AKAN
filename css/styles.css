@@ -1,0 +1,20 @@
+body {
+  background: url("https://bit.ly/2BP3dvD");
+}
+h2 {
+  color: white;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 50px;
+}
+.jumbotron {
+  background-color: darkgray;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.row {
+  margin-left: 100px;
+}
+.form {
+  /* width: 50%; */
+}
