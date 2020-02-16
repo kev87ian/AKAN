@@ -46,14 +46,14 @@ function findName() {
         daysOfTheWeek[dayBorn] +
         " and your Akan name is " +
         maleNames[dayBorn]
-    );
-    
+    ); 
   } else {
     alert(
       "Hello there, your day of birth is " +
         daysOfTheWeek[dayBorn] +
         " and your Akan name is " +
         maleNames[dayBorn]
+        
       
     );
   }
