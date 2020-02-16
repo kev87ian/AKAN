@@ -6,8 +6,7 @@ function findName() {
   var maleGender = document.getElementById("maleGender");
   var date = new Date(yy + "-" + mm + "-" + dd);
   var dayBorn = date.getDay();
-
-  
+ 
   var maleNames = [
     "Kwasi",
     "Kwado",
