@@ -1,4 +1,4 @@
-function findName() {
+function akanName() {
   var dd = parseInt(document.getElementById("dd").value);
   var mm = parseInt(document.getElementById("mm").value);
   var yy = parseInt(document.getElementById("yy").value);
