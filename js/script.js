@@ -27,6 +27,7 @@ function findName() {
     "Saturday"
   ];
 
+  
   if (dd < 1 || dd > 31) {
     alert("Enter valid day");
   // } else if (dd.toString().length !== 2) {
