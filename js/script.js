@@ -22,13 +22,13 @@ function akanName() {
     alert("Enter a valid year");
   } else if (maleGender.checked) {
     alert(
-      "Hello Human, your day of birth is " +
+      "Hello Sir, your day of birth is, " +
         daysOfTheWeek[dayBorn] +
         " and your Akan name is " +
         maleNames[dayBorn]); 
   } else {
     alert(
-      "Hello Human, your day of birth is " +
+      "Hello Lady, your day of birth is, " +
         daysOfTheWeek[dayBorn] +
         " and your Akan name is " +
         femaleNames[dayBorn]);
