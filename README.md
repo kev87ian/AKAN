@@ -1,6 +1,7 @@
 # Akan Name Generator.
  By Kevin Mathenge.
- ## Live Link https://kev87ian.github.io/AKAN/
+ ## Live Link 
+ https://kev87ian.github.io/AKAN/
 ## Description
 This is an application that helps one to know the day they were born and generate for them an *Akan* Ghanaian name depending on their gender and the day they were born.
 ## Techologies used
