@@ -1,14 +1,15 @@
-# Akan name generator
+### Akan Name Generator.
  By Kevin Mathenge.
 ## Description
 This is an application that helps one to know the day they were born and generate for them an *Akan* Ghanaian name depending on their gender and the day they were born.
-
 ## Techologies used
 This application was developed by incorporating the use of:
 - HTML 
 - CSS
 - Bootstrap
-- Javascript 
+- Javascript
+## BDD 
+
 ## Contacts and support
 For more information, corrections or clarification, reach out on kelvinian87@gmail.com
 ## License

@@ -1,5 +1,8 @@
 body {
-  background-color: indianred;
+  /* background-color: indianred; */
+background-image: url("https://bit.ly/2SyTqmQ");
+background-repeat: no-repeat;
+background-size: cover;
 }
 h2 {
   color: white;
@@ -14,7 +17,4 @@ h2 {
 }
 .row {
   margin-left: 100px;
-}
-.form {
-  /* width: 50%; */
 }
