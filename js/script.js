@@ -25,14 +25,12 @@ function akanName() {
       "Hello Human, your day of birth is " +
         daysOfTheWeek[dayBorn] +
         " and your Akan name is " +
-        maleNames[dayBorn]
-    ); 
+        maleNames[dayBorn]); 
   } else {
     alert(
       "Hello Human, your day of birth is " +
         daysOfTheWeek[dayBorn] +
         " and your Akan name is " +
-        femaleNames[dayBorn] 
-    );
+        femaleNames[dayBorn]);
   }
 }
