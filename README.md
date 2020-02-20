@@ -4,11 +4,14 @@
  https://kev87ian.github.io/AKAN/
 ## Description
 This is an application that helps one to know the day they were born and generate for them an *Akan* Ghanaian name depending on their gender and the day they were born.
+![alt text](http://tiny.cc/akan)
 ## Techologies used
 This application was developed by incorporating the use of:
 - HTML 
 - CSS
 - Javascript
+## Technical requirements
+One needs a computer with stable internet access to be able to use the features.
 ## Known Bugs
 February 30 and 31 returns name, while it's not supposed to. 
 ## Contacts and support
