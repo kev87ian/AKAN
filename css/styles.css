@@ -12,6 +12,9 @@ h2 {
 .jumbotron {
   background-color: darkgray;
   margin-top: 50px;
+   width: 70%;
+
+  margin-left: 100px;
 }
 /* .row {
   margin-left: 100px;
