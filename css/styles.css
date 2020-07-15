@@ -9,12 +9,10 @@ h2 {
   font-family: 'Patrick Hand', cursive;
   font-size: 50px;
 }
-/* .jumbotron {
+.jumbotron {
   background-color: darkgray;
-  width: 70%;
   margin-top: 50px;
-  margin-left: 100px;
-} */
+}
 /* .row {
   margin-left: 100px;
 }
